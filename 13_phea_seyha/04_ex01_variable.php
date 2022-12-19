@@ -1,8 +1,6 @@
-<?php
-    $text="<h1>hello world</h1>";
-    $number=30;
-    echo $text;
-    echo "<h1>$number</h1>";
-
-
+<? php
+    $txt = "<h1>hello world<h1>";
+    $number = 10;
+    echo $txt;
+    echo "<h1>$number<h1>"
 ?>
