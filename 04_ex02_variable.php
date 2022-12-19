@@ -25,7 +25,7 @@
     ?>
         <div class="col-md-3 mb-3">
             <div class="card" style="width: 100%">
-                <img class="card-img-top" src=".img_avatar1.png"<?php echo "personal_".$i+1; ?>.png" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="./image/img_avatar1.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title"><?php echo $personInfo[$i]; ?></h4>
                     <p>Phone :</p>
