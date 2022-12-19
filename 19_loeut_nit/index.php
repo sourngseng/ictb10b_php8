@@ -25,7 +25,6 @@ echo $number; // Output: 1
  define("user_name","root");
  define("password","Pwd123");
 
-
  echo "<br>My Databse name is :". databse_name;
  // define("databse_name","my_db");
 
