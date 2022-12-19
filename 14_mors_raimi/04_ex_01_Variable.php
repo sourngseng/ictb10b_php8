@@ -1,4 +1,4 @@
-<?php
+ <?php
     // Declaring variables : ប្រកាសអថេរ
     $txt = "Hello World!";
     $number = 10;
@@ -10,7 +10,9 @@
     $number = 23;
     echo "<br>";
     echo $number; // Output: 10    
+?>
 
+ <?php
     // Defining constant
     define("SITE_URL", "https://www.tutorialrepublic.com/");
     // Using constant
