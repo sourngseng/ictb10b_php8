@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Lesson 04 : Variale and Constant</h1>
-
+<?php
+echo "hello i'm thearin ";
+echo "<br>"; 
+echo " how are you";
+echo "<br>";
+?>
 <?php
     // Declaring variables : ប្រកាសអថេរ
     $txt = "Hello World!";
@@ -22,8 +17,6 @@
     echo "<br>";
     echo $number; // Output: 10    
 ?>
-
-
 <?php
     // Defining constant
     define("SITE_URL", "https://www.tutorialrepublic.com/");
@@ -41,7 +34,3 @@
     echo "<br>My Databse name is :". databse_name;
 
 ?>
-
-
-</body>
-</html>
