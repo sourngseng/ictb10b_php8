@@ -20,30 +20,16 @@
   <div class="card" style="width:400px">
   <img class="card-img-bottom" src="./img/1.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
-      <h4 class="card-title">Sou yean</h4>
-      <p class="card-text">ICT Sutdent</p>
+      <h4 class="card-title"><?php echo $personInfo[$i]; ?></h4>
+      <p class="card-text"> <strong> <?php echo $personInfo[$i]; ?></strong>is an ICT Sutdent of Religional Polytechnic Institute of Techo Sen Seim Reap</p>
       <p>Phone</p>
       <p>Email</p>
       <p>Adress</p>
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
   </div>
+  <div>
   <br>
-  
-  <p>Information:</p>
-  <div class="card" style="width:400px">
-  <img class="card-img-bottom" src="./img/2.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">seyha</h4>
-     <p class="card-text">ICT stu2</p>
-      <p>Phone</p>
-      <p>Email</p>
-      <p>Adress</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-        </div>
-        
-      </div>
-    </div>
-
-    </body>
-    </html
+  </div>
+</body>
+</html
