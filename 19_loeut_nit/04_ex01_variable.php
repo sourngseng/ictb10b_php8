@@ -1,6 +1,7 @@
 <?php
-    $text="<h1>Hello my teacher</h1>";
-    $number=10;
+    $text="<h1>hello Khoude</h1>";
+    $number=19;
     echo $text;
-    echo "computer $number";
+    echo "<h1>$number</h1>";
+
 ?>
