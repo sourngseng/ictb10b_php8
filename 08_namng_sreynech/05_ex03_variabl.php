@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php
-        $name="Long Dara";
+        $name="Namng Sreynch!";
         $gender="Male";
         $avatar="images/img_avatar5.png";
 
