@@ -10,12 +10,14 @@
 <body>
 
 <div class="container mt-3">
+  <h2>Personal Information-ព័ត៍មានផ្ទាល់ខ្លួន</h2>
+  <div class="container mt-3">
   <h2>Card Image Overlay</h2>
   <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
   <div class="card img-fluid" style="width:500px">
     <img class="card-img-top" src="./images/img_avatar1.png" alt="Card image" style="width:100%">
     <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
+      <h4 class="card-title">Rasin Thai</h4>
       <p>Name</p>
       <p>Email</p>
       <p>Adress</p>
@@ -23,6 +25,25 @@
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
   </div>
+</div>
+<div class="container mt-3">
+  <h2>Card Image Overlay</h2>
+  <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="./images/img_avatar5.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Thai Rasin</h4>
+      <p>Name</p>
+      <p>Email</p>
+      <p>Adress</p>
+      
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+
+    
+  
+  
 </div>
 
 </body>
