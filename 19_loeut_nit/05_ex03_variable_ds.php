@@ -18,4 +18,4 @@
         echo "<img src='$photo'";
     ?>
 </body>
-</html>
+</html>f
