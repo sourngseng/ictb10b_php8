@@ -7,7 +7,7 @@
     <title>variable_display</title>
     <style>
         h1{
-            color:red;
+            color:green;
         }
     </style>
 </head>
@@ -18,7 +18,7 @@
         $avatar="img/Person2.jpg";
 
         echo $name;
-        echo "<p>Hello, $name !</p>";
+        echo "<h1><p>Hello, $name !</h1></p>";
         echo "<p>Gender : $gender</p>";
 
         echo "<img src='$avatar'>";
