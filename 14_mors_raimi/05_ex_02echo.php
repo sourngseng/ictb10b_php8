@@ -10,10 +10,16 @@
     <?php
     echo "<h1>This is sample heading.</h1>";
     echo "<h3 style ='color:red;'>This is heading with style.</h3>";
-    echo $name;
-    echo $gender;
-    echo $avatar;
 
+    $name ="Raimi";
+    $gender ="Male";
+    $avatar ="images/img_avatar6.png";
+ 
+    echo $name;
+    echo "<p>Hello, $name !</p>";
+    echo "<p>Gender: $gender</p>";
+    echo "<img src='$avatar'>";
+ 
     ?>
 </body>
 </html>
