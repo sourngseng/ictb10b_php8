@@ -4,11 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
     <?php 
-        $name="<h2>I'm Seyha</h2>";
-        $gender="<h3>Male</h3>";
+        $name="<h2>Name:I'm Seyha</h2>";
+        $gender="<h3>Gender:Male</h3>";
         $PhoneNumber="<h3>010307440</h3>";
         $Photo="img/img_avatar1.png";
         echo "$name<br>";
