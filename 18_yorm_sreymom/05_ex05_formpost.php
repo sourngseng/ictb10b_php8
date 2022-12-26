@@ -11,6 +11,7 @@
     @$_email=$_POST['email'];
     @$_pswd=$_POST['pswd'];
     @$_remember=$_POST['remember'];
+    @$_telegrm=$_POST['telegrm']
 
 ?>
 
