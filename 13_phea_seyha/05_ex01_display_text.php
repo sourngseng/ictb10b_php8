@@ -1,4 +1,4 @@
 <?php 
-    echo "hello my name seyha!";
-    echo "I am student";
+    echo "hello my name seyha!<br>";
+    echo "I am student<br>";
 ?>
