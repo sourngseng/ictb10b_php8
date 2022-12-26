@@ -1,5 +1,5 @@
-<?php 
-    $personInfo=array("Long Dara","Phon Samnang","Som Chenda","Seng Sourng","Loy Vichet","Chhit Amouy","Keo Thida");
+ <?php 
+    $personInfo=array("VAN NARA","CHOV BOPHA","OUN SUPHEA","KEO SYNA","SEANG SENGLY","YONG RATANA","SOK MALY","MAN CHAKRIYA");
 
 ?>
 
@@ -13,7 +13,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-
 <body>
 
 <div class="container mt-3">
@@ -21,11 +20,11 @@
 
   <div class="row">
     <?php
-        for($i=0;$i<=6;$i++){
+        for($i=0;$i<=7;$i++){
     ?>
         <div class="col-md-3 mb-3">
             <div class="card" style="width: 100%">
-                <img class="card-img-top" src="./Images/<?php echo "img".$i+1; ?>.jpg" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="./image/img_avatar1.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title"><?php echo $personInfo[$i]; ?></h4>
                     <p>Phone :</p>
@@ -40,8 +39,16 @@
         </div>
      <?php
         }
-    ?> 
+    ?>
+    
+    
   </div>
+
+ 
+ 
+ 
+  
+
 </div>
 
 </body>
