@@ -13,14 +13,15 @@
 </head>
 <body>
     <?php
-        $name="Long Dara";
-        $gender="Male";
-        $avatar="images/img_avatar1.png";
+        $name="channy";
+        $gender="FeMale";
+        $avatar="images/img_avatar4.png";
 
         echo $name;
-        echo "<p>Hello, $name !</p>";
-        echo "<p>Gender : $gender</p>";               
+        echo "<p>Hi, $name !</p>";
+        echo "<p>Gender : $gender</p>";
+
         echo "<img src='$avatar'>";
     ?>
 </body>
-</html>
+</html> 

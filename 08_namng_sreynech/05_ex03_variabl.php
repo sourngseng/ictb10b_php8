@@ -7,14 +7,14 @@
     <title>Using Echo with HTML5 Tags</title>
     <style>
         h1{
-            color:yellow;
+            color:blue;
         }
     </style>
 </head>
 <body>
     <?php
-        $name="Long Dara";
-        $gender="Male";
+        $name="<h1>Namng Sreynch!</h1>";
+        $gender="<h1>Male</h1>";
         $avatar="images/img_avatar5.png";
 
         echo $name;

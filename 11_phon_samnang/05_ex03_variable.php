@@ -19,7 +19,8 @@
 
         echo $name;
         echo "<p>Hello, $name !</p>";
-        echo "<p>Gender : $gender</p>";               
+        echo "<p>Gender : $gender</p>";
+               
         echo "<img src='$avatar'>";
     ?>
 </body>
