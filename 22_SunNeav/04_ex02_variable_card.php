@@ -29,7 +29,7 @@
       <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
-    <img class="card-img-bottom" src="./image/men2.png" alt="Card image" style="width:100%">
+    <img class="card-img-bottom" src="./image/nana.jpg" alt="Card image" style="width:100%">
   </div>
 </div>
 
