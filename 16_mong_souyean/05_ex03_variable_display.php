@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Using Echo with HTML5 Tags</title>
+    <title>variable_display</title>
     <style>
         h1{
-            color:red;
+            color:green;
         }
     </style>
 </head>
 <body>
     <?php
-        $name="Long Dara";
+        $name="Sou yean";
         $gender="Male";
-        $avatar="images/img_avatar1.png";
+        $avatar="img/Person2.jpg";
 
         echo $name;
-        echo "<p>Hello, $name !</p>";
-        echo "<p>Gender : $gender</p>";               
+        echo "<h1><p>Hello, $name !</h1></p>";
+        echo "<p>Gender : $gender</p>";
+
         echo "<img src='$avatar'>";
     ?>
 </body>

@@ -10,7 +10,7 @@
     <?php 
         echo "Hello , Neav!";
         echo "<h1>Hello Heading 1!</h1>";        
-        echo "<img src='images/men1.png'>";
+        echo "<img src='image/men1.png'>";
     ?>
 </body>
 </html>

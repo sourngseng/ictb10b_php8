@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Using Echo with HTML5 Tags</title>
+    <title>Html_php</title>
     <style>
         h1{
-            color:green;
+            color:blue;
+        }
+        body{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <?php
-        echo "<h1>Hello Sreynech!</h1>";
-        echo "<h1>Hello Heading 1!</h1>";        
-        echo "<img src='images/img_avatar5.png'>";
+    
+        echo "<h1>Hello , souyean!</h1>";
+        echo "<h1>Hello This is my Avatar!</h1>";        
+        echo "<img src='img/Person1.jpg'>";
     ?>
 </body>
 </html>
