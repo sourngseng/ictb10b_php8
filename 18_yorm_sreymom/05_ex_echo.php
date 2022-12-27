@@ -7,15 +7,15 @@ This lesson cover on three points:
 */
     echo "Hello String in PHP8!<br>";
 
-    echo "Name : Niev Maneth<br>";
+    echo "Name : sreymom<br>";
     echo "Gender: Male <br>";
     echo "Address: Siem Reap<br>";
-    echo "Phone : 011966602<br>";
+    echo "Phone : 0966931695<br>";
 
     print("Hello String in PHP8!<br>");
-    print("Name : Niev Maneth<br>");
+    print("Name : sreymom<br>");
     print("Gender: Male <br>");
     print("Address: Siem Reap<br>");
-    print("Phone : 011966602<br>");
+    print("Phone :0966931695<br>");
 
 ?>
