@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@chhlavkimsunn 
+sourngseng
+/
+ictb10b_php8
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+ictb10b_php8/01_seng_sourng/05_ex04_form.php /
+@sourngseng
+sourngseng Using form with variable
+Latest commit 6ec50fe 1 minute ago
+ History
+ 1 contributor
+51 lines (46 sloc)  1.9 KB
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +68,7 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
+
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>
@@ -49,3 +78,17 @@
 
 </body>
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

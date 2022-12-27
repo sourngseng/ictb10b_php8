@@ -10,6 +10,8 @@
 <body>
 
 <?php
+    @$_surname=$_GET['surname'];
+    @$_lastname=$_GET['lastname'];
     @$_email=$_GET['email'];
     @$_pswd=$_GET['pswd'];
     @$_remember=$_GET['remember'];
@@ -22,6 +24,10 @@
             <h2>បញ្ចូលពត៌មាន</h2>
             <form action="05_ex04_form.php">
               <div class="mb-3 mt-3">
+                <label for="surname">SurName</label>
+                <input type="surname" class="form-control" id="surname" placeholder="Enter Surname" name="surname"> 
+                <label for="surname">Last Name</label>
+                <input type="surname" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname"> 
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
               </div>
@@ -39,7 +45,8 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
+                <h3>Surname :: <span class="badge bg-danger"><?php echo $_surname; ?></span></h3>
+                <h3>Last name :: <span class="badge bg-danger"><?php echo $_lastname; ?></span></h3>
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>

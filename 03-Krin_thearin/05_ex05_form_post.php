@@ -10,9 +10,12 @@
 <body>
 
 <?php
-    @$_email=$_GET['email'];
-    @$_pswd=$_GET['pswd'];
-    @$_remember=$_GET['remember'];
+    @$_Name=$_POST['Name'];
+    @$_email=$_POST['email'];
+    @$_Address=$_POST['Address'];
+    @$_pswd=$_POST['pswd'];
+    @$_remember=$_POST['remember'];
+
 
 ?>
 
@@ -20,10 +23,18 @@
     <div class="row">
         <div class="col-md-6 bg-info card pb-5">
             <h2>បញ្ចូលពត៌មាន</h2>
-            <form action="05_ex04_form.php">
+            <form action="05_ex05_form_post.php" method="post">
+            <div class="mb-3 mt-3">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter text" name="Name">
+              </div>
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="Address">Address:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter text" name="Address">
               </div>
               <div class="mb-3">
                 <label for="pwd">Password:</label>
@@ -39,8 +50,9 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
-                <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
+                <h3>Name : <span class="badge bg-danger"><?php echo $_Name; ?></span></h3>
+                <h3>E_mail : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
+                <h3>Address : <span class="badge bg-danger"><?php echo $_Address; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>
         </div>
