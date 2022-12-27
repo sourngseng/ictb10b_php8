@@ -10,8 +10,6 @@
 <body>
 
 <?php
-    @$_Name=$_GET['email'];
-    @$_Phone=$
     @$_email=$_GET['email'];
     @$_pswd=$_GET['pswd'];
     @$_remember=$_GET['remember'];
@@ -41,7 +39,6 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit ទទួលបាន</h2>
-
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>
