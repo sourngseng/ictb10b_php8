@@ -20,8 +20,8 @@ echo "<h3 style ='color:red;'>This is heading with style.</h3>";
 
     $txt ="Hello World";
     $num =123456789;
-    echo $txt;
-    echo $num;
+    echo "$txt<br>";
+    echo "$num<br>";
 
     print("Hello print in php<br>");
     print("Name: MORS RAIMI<br>");
