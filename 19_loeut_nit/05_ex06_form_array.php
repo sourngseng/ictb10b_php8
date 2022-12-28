@@ -10,10 +10,10 @@
 <body>
      <?php 
          $color=array("bg-dark","bg-info","bg-warning","bg-danger");
-         @$name=$_POST['name'];
-         @$subject=$_POST['subject'];
-         @$gender=$_POST['gender'];
-         @$background=$_POST['background'];
+         @$name=$_GET['name'];
+         @$subject=$_GET['subject'];
+         @$gender=$_GET['gender'];
+         @$background=$_GET['background'];
 
      ?>
 <div class="container mt-3">
@@ -26,7 +26,7 @@
       <input type="text" class="form-control" id="name" placeholder="Enter yourname" name="name">
     </div>
     <div class="mb-3">
-      <label for="pwd">SubjectName:</label>
+      <label for="text">SubjectName:</label>
       <input type="text" class="form-control" id="subject" placeholder="Enter password" name="subject">
     </div>
     <div class="mb-3 mt-3">
@@ -55,9 +55,9 @@
         <div class="col-md-6 <?php echo $background==''?'bg-dark':$background; ?> card pb-5 text-white">
             <h2 class="pt-3">After Submit</h2>
 
-                <h3>Name : <span class="badge bg-danger">        <?php echo " $name"; ?></span></h3>
-                <h3>Subject Name : <span class="badge bg-danger"><?php echo "$subject"; ?></span> </h3>
-                <h3>Gender : <span class="badge bg-danger">      <?php echo "$gender"; ?></span> </h3>
+                <h3>Name : <span class="badge bg-danger">        <?php echo  $name; ?></span></h3>
+                <h3>Subject Name : <span class="badge bg-danger"><?php echo $subject; ?></span> </h3>
+                <h3>Gender : <span class="badge bg-danger">      <?php echo $gender; ?></span> </h3>
                 
         </div>
     </div>
