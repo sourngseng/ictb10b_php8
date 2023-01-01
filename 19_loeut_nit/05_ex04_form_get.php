@@ -59,7 +59,7 @@
         <div class="col-md-6 bg-dark card text-white pb-5">
             <h1>Result after input</h1>
             <h2>Name:<span     class="badge bg-warning">    <?php echo "$email";?>    </span></h2>
-            <h2>Password:<span class="badge bg-warning">    <?php echo "$pswd";?>     </span></h2>
+            <h2>Password:<span class="badge bg-warning">    <?php echo "$pswd";?>      </span></h2>
             <h2>Remember:<span class="badge bg-warning">    <?php echo "$remember";?> </span></h2>
             <h2>Geder:<span    class="badge bg-warning">    <?php echo "$gender";?>   </span></h2>
             <h2>Addres:<span   class="badge bg-warning">    <?php echo "$addres";?>   </span></h2>

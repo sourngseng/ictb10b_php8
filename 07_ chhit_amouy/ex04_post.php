@@ -10,17 +10,21 @@
 <body>
 
 <?php
-    @$_email=$_GET['email'];
-    @$_pswd=$_GET['pswd'];
-    @$_remember=$_GET['remember'];
-
+    @$_username=$_post['Name'];
+    @$_email=$_POST['email'];
+    @$_pswd=$_POST['pswd'];
+    @$_remember=$_POST['remember'];
 ?>
 
 <div class="container mt-3">
     <div class="row">
         <div class="col-md-6 bg-info card pb-5">
             <h2>បញ្ចូលពត៌មាន</h2>
-            <form action="05_ex04_form.php">
+            <form action="05_ex05_form_post.php" method="post">
+                <div class="mb-3">
+                    <label for="username">Name:</label>
+                    <input type="username" class="form-control" id="username" placeholder="Enter username" name="username">
+                </div>
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -39,7 +43,7 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
+                <h3>username : <span class="badge bg-danger"><?php echo $_username; ?></span></h3>
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>
