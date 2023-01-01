@@ -24,4 +24,4 @@
         echo "<img src='$avatar'>";
     ?>
 </body>
-</html>
+</html> 
