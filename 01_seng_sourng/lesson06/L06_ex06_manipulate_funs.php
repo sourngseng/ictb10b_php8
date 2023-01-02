@@ -11,7 +11,7 @@
     <h4>Calculating the Length of a String</h4>
     <p>
         <?php 
-            $my_str = 'Welcome to Tutorial Republic';
+            $my_str = 'Welcome to Tutorial SourngTECH';
             // Outputs: 28
             echo strlen($my_str);
         ?>
