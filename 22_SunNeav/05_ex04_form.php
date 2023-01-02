@@ -16,7 +16,7 @@
     @$_pswd=$_GET['pswd'];
     @$_remember=$_GET['remember'];
     @$_Gender=$_GET['Gender'];
-    @$_Address=$_GEt{'Address'}
+    @$_Address=$_GEt{'Address'};
 
 ?>
 
