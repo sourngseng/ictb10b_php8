@@ -9,18 +9,43 @@
 </head>
 <body>
 
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Hello</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 <?php
-    @$_email=$_GET['email'];
-    @$_pswd=$_GET['pswd'];
-    @$_remember=$_GET['remember'];
+    @$_email=$_POST['email'];
+    @$_pswd=$_POST['pswd'];
+    @$_remember=$_POST['remember'];
 
 ?>
 
-<div class="container mt-3">
+<div class="container mt-5">
     <div class="row">
         <div class="col-md-6 bg-info card pb-5">
             <h2>បញ្ចូលពត៌មាន</h2>
-            <form action="05_ex04_form.php">
+            <form action="05_ex04_boostrapform.php" method="POST">
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -39,7 +64,7 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
+
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>

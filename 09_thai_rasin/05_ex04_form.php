@@ -10,6 +10,9 @@
 <body>
 
 <?php
+    @$_name=$_GET['name'];
+    @$_gender=$_GET['gender'];
+    @$_Gender=$_GET['mgender'];
     @$_email=$_GET['email'];
     @$_pswd=$_GET['pswd'];
     @$_remember=$_GET['remember'];
@@ -21,6 +24,14 @@
         <div class="col-md-6 bg-info card pb-5">
             <h2>បញ្ចូលពត៌មាន</h2>
             <form action="05_ex04_form.php">
+                <div class="mb-3 mt-3">
+                    <label for="name">Name</label>
+                    <input type="name"class="form-control" id="name" placeholder="Enter name"name="name">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="gender">Gender</label>
+                    <input type="gender"class="form-control" id="gender" placeholder="Enter gender"name="gender">
+                </div>
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -39,7 +50,9 @@
         </div>
         <div class="col-md-6 bg-success card pb-5 text-white">
             <h2>លទ្ធផលក្រោយ Submit</h2>
-               
+
+                <h3>Name :<span class="badge bg-danger"><?phhp echo $_name; ?></span></h3>
+                <h3>Gender :<span class="badge bg-danger"><?phhp echo $_gender; ?></span></h3>
                 <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span></h3>
                 <h3>Password : <span class="badge bg-danger"><?php echo $_pswd; ?></span> </h3>
                 <h3>Remember : <span class="badge bg-danger"><?php echo $_remember; ?></span> </h3>
