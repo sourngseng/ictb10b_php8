@@ -16,15 +16,14 @@
     <?php
     $name="Long Dara";
     $gender="Male";
-    $avatar="images/img_avatar1.png";
+    $avatar ="images/img_avatar2.png";
 
 
     echo $name;
     echo "<P>Hello ,name !</p>";
     echo "<P>Gender :$gender</P>";
-
-    echo "<img scr='$avatar'>";
-    ?>
+        echo "<img src='$avatar'>";
+     ?>
 
 
     
