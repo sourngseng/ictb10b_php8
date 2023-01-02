@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php
-        echo "Hello , Dara!";
+        echo "<h1>Hello Sreynech!</h1>";
         echo "<h1>Hello Heading 1!</h1>";        
         echo "<img src='images/img_avatar5.png'>";
     ?>
