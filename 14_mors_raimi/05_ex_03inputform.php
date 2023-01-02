@@ -10,7 +10,7 @@
 <body>
 
 <?php
-    @$_email=$_GET['email'];
+    @$_email=$_GET['email'];       //for show result on right.
     @$_pswd=$_GET['pswd'];
     @$_remember=$_GET['remember'];
     @$_Name=$_GET['name'];

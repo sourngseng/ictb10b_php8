@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" rel="stylesheet">
   <style>
     h3{
-      color: white;
+      color: pink;
       
     }
   </style>
 </head>
-<body style="font-family:Koulen!important;" >
+<body style="font-family:OdorMeanChey!important;">
     <?php
-     @$_email=$_GET['email'];
-     @$_pswd=$_GET['pswd'];
-     @$_remember=$_GET['remember'];
+    @$_email=$_POST['email'];
+    @$_pswd=$_POST['pswd'];
+    @$_remember=$_POST['remember'];
 
 ?>
 <div class="container mt-3">
@@ -26,7 +26,7 @@
         <div class="col-md-6  bg-info card pb-5">
 
   <h2 style="padding:20px;" >បញ្ចូលពត៌មាន</h2>
-  <form action="05_ex05_form_GET.php" method="GET">
+  <form action="05_ex04_form_post.php" method="post">
     <div class="mb-3 mt-3">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
