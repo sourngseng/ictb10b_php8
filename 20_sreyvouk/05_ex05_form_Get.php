@@ -9,12 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Odor+Mean+Chey&display=swap" rel="stylesheet">
   <style>
     h3{
-      color: white;
+      color: blue;
       
+    }
+    h2{
+      color:black;
     }
   </style>
 </head>
-<body style="font-family:Koulen!important;" >
+<body style="font-family:Koulen!;" >
     <?php
      @$_email=$_GET['email'];
      @$_pswd=$_GET['pswd'];
@@ -26,7 +29,7 @@
         <div class="col-md-6  bg-info card pb-5">
 
   <h2 style="padding:20px;" >បញ្ចូលពត៌មាន</h2>
-  <form action="05_ex05_form_GET.php" method="GET">
+  <form action="05_ex05_form_Get.php" method="Get">
     <div class="mb-3 mt-3">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
