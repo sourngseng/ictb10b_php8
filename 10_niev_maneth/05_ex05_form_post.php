@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-md-6 bg-info card pd-5">
         <h2>បញ្ជូលពត៌មាន</h2>
-<form action="05_ex04_form.php">
+<form action="05_ex05_form_post.php">
     <div class="mb-3 mt-3">
       <label for="name">Name:</label>
       <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
@@ -47,7 +47,7 @@
     </div>
     <div class="form-check mb-3">
       <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me 
       </label>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
@@ -56,7 +56,7 @@
     </div>
   
   
-    <div class="col-md-6 bg-dark card pd-5">
+    <div class="col-md-6 bg-success card pd-5">
         <h2>លទ្ធផលក្រោយ submit</h2>
         <h3>Name:<span class="badge bg-danger"><?php echo $_name; ?></span></h3>
         <h3>Gender:<span class="badge bg-danger"><?php echo $_gender; ?></span></h3>
