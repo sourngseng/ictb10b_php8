@@ -37,6 +37,14 @@
                 <input type="text" class="form-control" id="fname" placeholder="នាមខ្លួន" name="lastName">
               </div>
               <div class="mb-3 mt-3">
+                <label for="fname" class="pb-2">Password:</label>
+                <input type="text" class="form-control" id="fname" placeholder="password" name="lastName">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="fname" class="pb-2">Email :</label>
+                <input type="text" class="form-control" id="fname" placeholder="email" name="lastName">
+              </div>
+              <div class="mb-3 mt-3">
                 <label for="gender">ភេទ</label>
                 <div class="form-check">
                     <input type="radio" class="form-check-input" id="radio1" name="gender" value="ប្រុស" checked>
@@ -69,7 +77,7 @@
                 </div>
 
 
-              <button type="submit" class="btn btn-primary">Display Data</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
         <div class="col-md-6 <?php echo $_colors==''?'bg-secondary':$_colors; ?> card pb-5 text-white">
@@ -78,6 +86,8 @@
                 <h3>First Name : <span class="badge bg-danger"><?php echo $_fname; ?></span></h3>
                 <h3>Last Name : <span class="badge bg-danger"><?php echo $_lname; ?></span> </h3>
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
+                <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span> </h3>
+                <h3>Password : <span class="badge bg-danger"><?php echo $_password; ?></span> </h3>
                 
         </div>
     </div>
