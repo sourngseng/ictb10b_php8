@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Using Echo with HTML5 Tags</title>
     <style>
-        h1{
-            color:red;
+        p{
+            color:blue;
         }
     </style>
 </head>
 <body>
     <?php
-        $name="Long Dara";
-        $gender="Male";
-        $avatar="images/img_avatar1.png";
+        $name="ម៉ាប់ៗ";
+        $gender="Female";
+        $img="Images/img5.jpg";
 
         echo $name;
         echo "<p>Hello, $name !</p>";
         echo "<p>Gender : $gender</p>";
                
-        echo "<img src='$avatar'>";
+        echo "<img src='$img'>";
     ?>
 </body>
 </html>
