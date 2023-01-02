@@ -16,16 +16,16 @@
     */
         echo "Hello String in PHP8!<br>";
 
-        echo "Name : SENG Sourng<br>";
+        echo "Name : PHON SAMNANG<br>";
         echo "Gender: Male <br>";
         echo "Address: Siem Reap<br>";
-        echo "Phone : 092 77 12 44<br>";
+        echo "Phone : 012 74 04 46<br>";
 
         print("Hello String in PHP8!<br>");
-        print("Name : SENG Sourng<br>");
+        print("Name : PHON SAMNANG<br>");
         print("Gender: Male <br>");
         print("Address: Siem Reap<br>");
-        print("Phone : 092 77 12 44<br>");
+        print("Phone : 012 74 04 46<br>");
 
     ?>
 </body>
