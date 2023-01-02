@@ -17,6 +17,8 @@
 <?php
     @$_fname=$_POST['firstName'];
     @$_lname=$_POST['lastName'];
+    @$_email=$_POST['Email'];
+    @$_password=$_POST['Password'];
     @$_gender=$_POST['gender'];
     @$_colors=$_POST['colors'];
 
@@ -37,12 +39,12 @@
                 <input type="text" class="form-control" id="fname" placeholder="នាមខ្លួន" name="lastName">
               </div>
               <div class="mb-3 mt-3">
-                <label for="fname" class="pb-2">Password:</label>
-                <input type="text" class="form-control" id="fname" placeholder="password" name="lastName">
+                <label for="password" class="pb-2">Password:</label>
+                <input type="password" class="form-control" id="password" placeholder="password" name="password">
               </div>
               <div class="mb-3 mt-3">
-                <label for="fname" class="pb-2">Email :</label>
-                <input type="text" class="form-control" id="fname" placeholder="email" name="lastName">
+                <label for="email" class="pb-2">Email :</label>
+                <input type="email" class="form-control" id="email" placeholder="email" name="email">
               </div>
               <div class="mb-3 mt-3">
                 <label for="gender">ភេទ</label>
