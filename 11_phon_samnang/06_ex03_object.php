@@ -44,7 +44,7 @@
             <input type="text" id="fname" name="firstName">   
         </div>
         <div style="margin-bottom: 15px;">
-            <label for="lname">Lasst Name:</label>
+            <label for="lname">Last Name:</label>
             <input type="text" id="lname" name="lastName">   
         </div>
         <div style="margin-bottom: 15px;">
