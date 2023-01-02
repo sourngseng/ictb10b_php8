@@ -19,7 +19,7 @@
     @$_lname=$_POST['lastName'];
     @$_gender=$_POST['gender'];
     @$_colors=$_POST['colors'];
-    @$_PhoneNumber=$_POST['phonenumber'];
+    @$_PhoneNumber=$_POST['PhoneNumber'];
     @$_Email=$_POST['email'];
 
     $colors=array('Primary','Success','Info','Warning');

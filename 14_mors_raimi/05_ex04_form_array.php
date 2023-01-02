@@ -27,7 +27,7 @@
 
 
 
-    $colors=array('Primary','Success','Info','Warning', 'danger', 'secondary', '');
+    $colors=array('Primary','Success','Info','Warning', 'danger', 'secondary');
 ?>
 
 <div class="container mt-3">

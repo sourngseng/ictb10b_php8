@@ -17,6 +17,8 @@
 <?php
     @$_fname=$_POST['firstName'];
     @$_lname=$_POST['lastName'];
+    @$_email=$_POST['Email'];
+    @$_password=$_POST['Password'];
     @$_gender=$_POST['gender'];
     @$_colors=$_POST['colors'];
 
@@ -35,6 +37,14 @@
               <div class="mb-3 mt-3">
                 <label for="fname" class="pb-2">នាមខ្លួន:</label>
                 <input type="text" class="form-control" id="fname" placeholder="នាមខ្លួន" name="lastName">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="password" class="pb-2">Password:</label>
+                <input type="password" class="form-control" id="password" placeholder="password" name="password">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="email" class="pb-2">Email :</label>
+                <input type="email" class="form-control" id="email" placeholder="email" name="email">
               </div>
               <div class="mb-3 mt-3">
                 <label for="gender">ភេទ</label>
@@ -69,7 +79,7 @@
                 </div>
 
 
-              <button type="submit" class="btn btn-primary">Display Data</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
         <div class="col-md-6 <?php echo $_colors==''?'bg-secondary':$_colors; ?> card pb-5 text-white">
@@ -78,6 +88,8 @@
                 <h3>First Name : <span class="badge bg-danger"><?php echo $_fname; ?></span></h3>
                 <h3>Last Name : <span class="badge bg-danger"><?php echo $_lname; ?></span> </h3>
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
+                <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span> </h3>
+                <h3>Password : <span class="badge bg-danger"><?php echo $_password; ?></span> </h3>
                 
         </div>
     </div>
