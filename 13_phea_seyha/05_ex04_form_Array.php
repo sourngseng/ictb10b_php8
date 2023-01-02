@@ -19,6 +19,7 @@
     @$_lname=$_POST['lastName'];
     @$_gender=$_POST['gender'];
     @$_colors=$_POST['colors'];
+    @$_PhoneNumber=$_POST['phonenumber'];
     @$_Email=$_POST['email'];
 
     $colors=array('Primary','Success','Info','Warning');
@@ -52,6 +53,11 @@
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
+    <div class="mb-3 mt-3">
+      <label for="PhoneNumber">phonenumber:</label>
+      <input type="PhoneNumber" class="form-control" id="PhoneNumber" placeholder="Enter PhoneNumber" name="PhoneNumber">
+    </div>
+    
 
               
                 <div class="mb-3 mt-3">
@@ -81,6 +87,7 @@
                 <h3>Last Name : <span class="badge bg-danger"><?php echo $_lname; ?></span> </h3>
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
                 <h3>Email : <span class="badge bg-danger"><?php echo $_Email; ?></span></h3>
+                <h3>PhoneNumber : <span class="badge banger"><?php echo $_PhoneNumber; ?></span></h3>
                 
         </div>
     </div>
