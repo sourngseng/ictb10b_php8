@@ -17,10 +17,11 @@
 <?php
     @$_fname=$_POST['firstName'];
     @$_lname=$_POST['lastName'];
-    @$_email=$_POST['Email'];
-    @$_password=$_POST['Password'];
     @$_gender=$_POST['gender'];
+    @$_age=$_POST['Age'];
     @$_colors=$_POST['colors'];
+    @$_dob=$_POST['DOB'];
+    
 
     $colors=array('Primary','Success','Info','Warning');
 ?>
@@ -29,7 +30,7 @@
     <div class="row">
         <div class="col-md-6 bg-info card pb-5">
             <h2 class="pt-3">បញ្ចូលពត៌មាន</h2>
-            <form action="05_ex06_form_array.php" method="post">
+            <form action="05_ex05_Array.php" method="post">
               <div class="mb-3 mt-3">
                 <label for="fname" class="pb-2">នាមត្រកូល:</label>
                 <input type="text" class="form-control" id="fname" placeholder="នាមត្រកូល" name="firstName">
@@ -37,14 +38,6 @@
               <div class="mb-3 mt-3">
                 <label for="fname" class="pb-2">នាមខ្លួន:</label>
                 <input type="text" class="form-control" id="fname" placeholder="នាមខ្លួន" name="lastName">
-              </div>
-              <div class="mb-3 mt-3">
-                <label for="password" class="pb-2">Password:</label>
-                <input type="password" class="form-control" id="password" placeholder="password" name="password">
-              </div>
-              <div class="mb-3 mt-3">
-                <label for="email" class="pb-2">Email :</label>
-                <input type="email" class="form-control" id="email" placeholder="email" name="email">
               </div>
               <div class="mb-3 mt-3">
                 <label for="gender">ភេទ</label>
@@ -56,9 +49,19 @@
                     <input type="radio" class="form-check-input" id="radio2" name="gender" value="ស្រី">
                     <label class="form-check-label" for="radio2">ស្រី</label>
                 </div>
+                <div class="mb-3 mt-3">
+                    <label for="age" class="pb-2">អាយុ:</label>
+                    <input type="text" class="form-control" id="age" placeholder="អាយុ" name="Age">
               </div>
-
+                <div class="mb-3 mt-3">
+                    <label for="dob" class="pb-2">ថ្ងៃខែឆ្នាំកំណើត:</label>
+                    <input type="text" class="form-control" id="dob" placeholder="ថ្ងៃខែឆ្នាំកំណើត" name="DOB">
+              </div>
               
+              </div>
+              </div>
+              
+
                 <div class="mb-3 mt-3">
                     <label for="select_color" class="pb-2">ជ្រើសរើសពណ៌</label>
                     <select class="form-select" id="select_color" name="colors">
@@ -79,7 +82,7 @@
                 </div>
 
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Display Data</button>
             </form>
         </div>
         <div class="col-md-6 <?php echo $_colors==''?'bg-secondary':$_colors; ?> card pb-5 text-white">
@@ -88,9 +91,8 @@
                 <h3>First Name : <span class="badge bg-danger"><?php echo $_fname; ?></span></h3>
                 <h3>Last Name : <span class="badge bg-danger"><?php echo $_lname; ?></span> </h3>
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
-                <h3>Email : <span class="badge bg-danger"><?php echo $_email; ?></span> </h3>
-                <h3>Password : <span class="badge bg-danger"><?php echo $_password; ?></span> </h3>
-                
+                <h3>Age : <span class="badge bg-dark"><?php echo $_age; ?></span> </h3>
+                <h3>DOB : <span class="badge bg-secondary"><?php echo $_dob; ?></span> </h3>
         </div>
     </div>
 </div>
