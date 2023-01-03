@@ -45,7 +45,7 @@
     <div class="row">
         <div class="col-md-6 bg-info card pb-5">
             <h2>បញ្ចូលពត៌មាន</h2>
-            <form action="05_ex04_boostrapform .php" method="POST">
+            <form action="04_ex01_Variable.php" method="POST">
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">

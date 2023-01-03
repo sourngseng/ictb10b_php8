@@ -22,7 +22,7 @@
 
    </style>
  </head>
-<body>
+<body style="font-family:AKbalthom Freehand">
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)">Logo</a>
@@ -71,6 +71,60 @@
         }
     ?>
   </div>
-
+  <div class="container mt-3 center" >
+  <h2>table for input Name and address</h2>          
+  <table class="table table-info table-striped  ">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Loeut</td>
+        <td>Nit</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Niev</td>
+        <td>Maneth</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Phea</td>
+        <td>Seyha</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Moung</td>
+        <td>SouYean</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Eng</td>
+        <td>Sopheap</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Ngek</td>
+        <td>Sak</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Khoun</td>
+        <td>Heat</td>
+        <td>SiemReap</td>
+      </tr>
+      <tr>
+        <td>Seng</td>
+        <td>Sourng</td>
+        <td>SiemReap</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
 </body>
 </html>
