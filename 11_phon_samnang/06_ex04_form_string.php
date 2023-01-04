@@ -25,7 +25,7 @@
    
     <div class="mb-3">
         <label for="comment">Comments:</label>
-        <textarea class="form-control" rows="2" id="comment" name="detail">Hello, Everyone How are you?</textarea>
+        <textarea class="form-control" rows="2" id="comment" name="detail">Hello World!!! Welcome to my world.</textarea>
     </div>
 
     <div class="mb-3">

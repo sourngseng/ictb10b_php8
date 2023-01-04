@@ -16,31 +16,35 @@
             $detail=$_POST['detail'];
             $result=str_replace($txtFind,$txtReplace,$detail);
         }
-    
+
     ?>
 
-<div class="container mt-3">
-  <h2>Find and Replace String</h2>
+<div class="container mt-3" >
+  <h2 >Find and Replace String</h2>
   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-   
+
     <div class="mb-3">
-        <label for="comment">Comments:</label>
-        <textarea class="form-control" rows="2" id="comment" name="detail">Hello, Everyone How are you?</textarea>
+        <label for="comment" ><span class="badge bg-info">Comments:</label>
+        <textarea class="form-control" rows="2" id="comment" name="detail" >
+            Hello, Everyone How are you? What is your name? I am RE.Can you help me please! What can I help you? Em about Java PHP AI.
+
+        </textarea>
     </div>
 
     <div class="mb-3">
-      <label for="find_text">Find Word:</label>
+      <label for="find_text" ><span class="badge bg-danger">Find Word: </label>
       <input type="text" class="form-control" id="find_text" placeholder="Search word.." name="find_text">
     </div>
     <div class="mb-3">
-      <label for="replace_txt">Replace Word:</label>
+      <label for="replace_txt" ><span class="badge bg-warning">Replace Word:</label>
       <input type="text" class="form-control" id="replace_txt" placeholder="Replace word.." name="replace_text">
     </div>
+    <button type="submit" class="btn btn-primary" value="submit" name="submit">Submit</button>
+
     <div class="mb-3">
-        <label for="comment">Result:</label>
+        <label for="comment"><span class="badge bg-primary">Result:</label>
         <textarea class="form-control" rows="2" id="comment" name="result"><?php echo $result; ?></textarea>
     </div>
-    <button type="submit" class="btn btn-primary" value="submit" name="submit">Submit</button>
   </form>
 </div>
 
