@@ -9,7 +9,7 @@
 <body>
     <h2>Using String in PHP8</h2>
     <?php
-        $a = 'សួស្តីពិភពលោក!';
+        $a = 'Hello world!';
         echo $a;
         echo "<br>";
         $b = "Hello world!";
@@ -21,10 +21,17 @@
         echo"<br>";
         $d="Hi,How are u?*&#903";
         echo $d;
+        echo"<br>";
+        $e="Where are you from?";
+        echo $e;
 
         var_dump($a);
         var_dump($b);
-        var_dump($c);        
+        var_dump($c);
+        var_dump($e);
+
+
+
     ?>
 
     <?php

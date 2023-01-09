@@ -71,13 +71,6 @@
                 <label for="phone" class="pb-2">Tel:</label>
                 <input type="text" class="form-control" id="phone" placeholder="លេខទូរស័ព្ទ" name="Tel">
               </div>
-
-
-
-
-
-
-
                 <div class="mb-3 mt-3">
                     <label for="select_color" class="pb-2">ជ្រើសរើសពណ៌</label>
                     <select class="form-select" id="select_color" name="colors">

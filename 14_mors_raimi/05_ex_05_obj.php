@@ -28,9 +28,6 @@
             return ($this->fName ." ".$this->lName);
         }
     }
-
-
-
     ?>
     <form action="05_ex_05_obj.php"method="post">
         <div style="margin: bottom 15px;">

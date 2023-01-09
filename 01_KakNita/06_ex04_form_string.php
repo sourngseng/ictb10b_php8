@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  
     <?php
          $result=null;
         if(isset($_POST['submit'])){
@@ -16,13 +17,13 @@
             $detail=$_POST['detail'];
             $result=str_replace($txtFind,$txtReplace,$detail);
         }
-    
+
     ?>
 
 <div class="container mt-3">
   <h2>Find and Replace String</h2>
   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-   
+
     <div class="mb-3">
         <label for="comment">Comments:</label>
         <textarea class="form-control" rows="2" id="comment" name="detail">Hello, Everyone How are you?</textarea>
