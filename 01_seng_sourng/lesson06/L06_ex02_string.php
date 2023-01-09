@@ -9,7 +9,7 @@
 <body>
     <h2>Using String in PHP8</h2>
     <?php
-        $a = 'Hello world!';
+        $a = 'សួស្តីពិភពលោក!';
         echo $a;
         echo "<br>";
         $b = "Hello world!";
@@ -24,10 +24,7 @@
 
         var_dump($a);
         var_dump($b);
-        var_dump($c);
-
-
-        
+        var_dump($c);        
     ?>
 
     <?php
