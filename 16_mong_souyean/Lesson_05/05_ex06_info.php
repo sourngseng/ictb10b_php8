@@ -35,7 +35,7 @@
           $people->fullname($firstname,$lastname);
            
     ?>
-    <form action="05_ex04_obj.php" method="POST">
+    <form action="05_ex06_info.php" method="POST">
         <div style="margin-top: 15px;">
             <label for="firstname">First Name: </label>
             <input type="text" id="firstname" name="firstname">
@@ -48,12 +48,12 @@
     </form>
     <h3>
         <?php 
-       echo "ឈ្មោះពេញរបស់អ្នកគឺ៖​​​ " .$people->showfullname();
+       echo "ឈ្មោះពេញរបស់អ្នកគឺ៖    " .$people->showfullname();
        var_dump($people);
       
        ?>
     </h3>
-<h4></h4>
+
 
 </body>
 

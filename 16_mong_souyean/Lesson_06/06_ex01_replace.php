@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Find and Replace</title>
 </head>
 <body>
-    <?php
+<?php
          $result=null;
         if(isset($_POST['submit'])){
             $txtFind=$_POST['find_text'];
@@ -16,16 +16,15 @@
             $detail=$_POST['detail'];
             $result=str_replace($txtFind,$txtReplace,$detail);
         }
-    
-    ?>
 
-<div class="container mt-3">
+    ?>
+    <div class="container mt-3">
   <h2>Find and Replace String</h2>
   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-   
+
     <div class="mb-3">
         <label for="comment">Comments:</label>
-        <textarea class="form-control" rows="2" id="comment" name="detail">Hello World!!! Welcome to my world.</textarea>
+        <textarea class="form-control" rows="2" id="comment" name="detail"></textarea>
     </div>
 
     <div class="mb-3">
@@ -43,6 +42,8 @@
     <button type="submit" class="btn btn-primary" value="submit" name="submit">Submit</button>
   </form>
 </div>
+   
+  
 
 
 </body>
