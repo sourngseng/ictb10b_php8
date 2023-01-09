@@ -1,41 +1,25 @@
-
 <?php 
-    $x =10;
+    $x = 10;
     echo $x;
     echo "<br>";
-
-    $x =20;
+    $x = 20;
     $x += 30;
     echo $x;
     echo "<br>";
-
-    $x =50;
+    $x = 50;
     $x -= 20;
     echo $x;
     echo "<br>";
-
-    $x =5;
+    $x = 5;
     $x *= 25;
     echo $x;
     echo "<br>";
-
-    $x =50;
+    $x = 50;
     $x /= 10;
     echo $x;
     echo "<br>";
-
-    $x =100;
+    $x = 100;
     $x %= 15;
     echo $x;
-    echo "<br>";
-
-
-
-
-
-
-
-
-
 
 ?>
