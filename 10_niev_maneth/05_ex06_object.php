@@ -35,7 +35,7 @@
           $people->fullname($firstname,$lastname);
            
     ?>
-    <form action="05_ex04_obj.php" method="POST">
+    <form action="05_ex06_object.php" method="POST">
         <div style="margin-top: 15px;">
             <label for="firstname">First Name: </label>
             <input type="text" id="firstname" name="firstname">
@@ -53,7 +53,7 @@
       
        ?>
     </h3>
-<h4></h4>
+
 
 </body>
 

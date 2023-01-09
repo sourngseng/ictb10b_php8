@@ -98,7 +98,7 @@
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
                 <h3>Age : <span class="badge bg-dark"><?php echo $_age; ?></span> </h3>
                 <h3>DOB : <span class="badge bg-secondary"><?php echo $_dob; ?></span> </h3>
-                <h3>Address : <span class="badge bg-secondary"><?php echo $_address; ?></span> </h3>
+                <h3>Address : <span class="badge bg-danger"><?php echo $_Address; ?></span> </h3>
         </div>
     </div>
 </div>
