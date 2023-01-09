@@ -28,7 +28,7 @@
   </div>
   <br>
   
-  <!-- <p>Image at the bottom (card-img-bottom):</p>
+   <!-- <p>Image at the bottom (card-img-bottom):</p>
   <div class="card" style="width:400px">
     <div class="card-body">
       <h4 class="card-title">Jane Doe</h4>
