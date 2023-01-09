@@ -12,7 +12,7 @@
     $x -= 20;
     echo $x;
     echo "<br>";
-
+   
     $x = 5;
     $x *= 25;
     echo $x;
@@ -27,4 +27,7 @@
     $x %= 15;
     echo $x;
     echo "<br>";
+    <form action=""></form>
+
+
 ?>
