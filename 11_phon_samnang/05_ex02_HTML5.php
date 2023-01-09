@@ -7,15 +7,16 @@
     <title>Using Echo with HTML5 Tags</title>
     <style>
         h1{
-            color:red;
+            color:orange;
         }
     </style>
 </head>
 <body>
-    <?php
-        echo "Hello , Dara!";
-        echo "<h1>Hello Heading 1!</h1>";        
-        echo "<img src='images/img_avatar1.png'>";
-    ?>
-</body>
+<?php
+        echo "Hello , HANUMAN!";
+        echo "<h1>Hello Heading 1!<h1>";
+        echo "<img src='Images/img2.jpg'>";
+        ?>
+
+
 </html>

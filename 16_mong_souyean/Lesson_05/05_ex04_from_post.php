@@ -62,7 +62,7 @@
    
     <div class="mb-3 mt-3">
       <label for="phonenumber">លេខទូរស្ទព័ទំនាក់ទំនង:</label>
-      <input type="phonenumber" class="form-control" id="phonenumber" placeholder="លេខទូរស្ទព័ទំនាក់ទំនដ" name="phonenumber">
+      <input type="phonenumber" class="form-control" id="phonenumber" placeholder="លេខទូរស្ទព័ទំនាក់ទំនង" name="phonenumber">
     </div>
     <div class="form-check mb-3">
       <label class="form-check-label">

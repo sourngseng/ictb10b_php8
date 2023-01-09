@@ -28,8 +28,11 @@
             return ($this->fName ." ".$this->lName);
         }
     }
+
+
+
     ?>
-    <form action="05_ex_05_obj.php"method="post">
+    <form action="05_ex06_obj.php"method="post">
         <div style="margin: bottom 15px;">
             <label for="fname">Fisrst Name:</label>
             <input type="text" id="fname" name="firstName">
@@ -37,7 +40,7 @@
 
         </div>
         <div style="margin-bottom: 15px;">
-            <label for="lname">Last Name:</label>
+            <label for="lnmae">Last Name:</label>
             <input type="text" id="lname" name="lastName">
         </div>
         <input style="mardin-left: 120px;"type="submit"value="Save">

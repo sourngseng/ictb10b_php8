@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 </head>
-<body style="font-family: Hanuman !important;">
 
 <?php
     @$_fname=$_POST['firstName'];
@@ -21,6 +20,7 @@
     @$_age=$_POST['Age'];
     @$_colors=$_POST['colors'];
     @$_dob=$_POST['DOB'];
+    @$_Address=$_POST['Address'];
     
 
     $colors=array('Primary','Success','Info','Warning');
@@ -57,6 +57,11 @@
                     <label for="dob" class="pb-2">ថ្ងៃខែឆ្នាំកំណើត:</label>
                     <input type="text" class="form-control" id="dob" placeholder="ថ្ងៃខែឆ្នាំកំណើត" name="DOB">
               </div>
+              <div class="mb-3 mt-3">
+                    <label for="Address" class="pb-2">អាស័យដ្ខាន:</label>
+                    <input type="text" class="form-control" id="Address" placeholder="អាស័យដ្ខាន" name="Address">
+              </div>
+              
               
               </div>
               </div>
@@ -93,6 +98,7 @@
                 <h3>Gender : <span class="badge bg-danger"><?php echo $_gender; ?></span> </h3>
                 <h3>Age : <span class="badge bg-dark"><?php echo $_age; ?></span> </h3>
                 <h3>DOB : <span class="badge bg-secondary"><?php echo $_dob; ?></span> </h3>
+                <h3>Address : <span class="badge bg-danger"><?php echo $_Address; ?></span> </h3>
         </div>
     </div>
 </div>
