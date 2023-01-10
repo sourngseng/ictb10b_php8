@@ -27,6 +27,7 @@
     $x %= 15;
     echo $x;
     echo "<br>";
+    <form action=""></form>
 
 
 ?>
