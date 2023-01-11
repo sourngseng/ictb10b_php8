@@ -22,7 +22,7 @@
     @$result1=$sum-$sum1;
     @$result2=$sum*$sum1;
     @$resultb=$sum/$sum1;
-    @$resulta=($sum%$sum1);
+    
   ?>
      <h1  class="text-info ">ប្រមាណវិធីសម្រាប់ Operator in php8</h1>
      <div class="row">
@@ -47,7 +47,7 @@
            <h2>Result of num1-num2=<?php echo "$result1";?></h2>
            <h2>Result of num1*num2=<?php echo "$result2";?></h2>
            <h2>Result of num1/num2=<?php echo "$resultb";?></h2>
-           <h2>Result of num1%num2=<?php echo "$resulta";?></h2>
+          
       </div>
 </body>
 </html>
