@@ -22,7 +22,7 @@
     @$result1=$sum-$sum1;
     @$result2=$sum*$sum1;
     @$resultb=$sum/$sum1;
-    @$resulta=$sum%$sum1;
+    @$resulta=($sum%$sum1);
   ?>
      <h1  class="text-info ">ប្រមាណវិធីសម្រាប់ Operator in php8</h1>
      <div class="row">
