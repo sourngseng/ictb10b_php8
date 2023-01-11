@@ -27,7 +27,7 @@
   <div class="container">
      
      <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 text-primary">
                 <form action="07_ex03_value_arithmetic.php" class="bg-dark pt-4 " method="post" >
                 <div class="mb-3">
                     <label for="number">InputNumber1:</label>
