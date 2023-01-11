@@ -23,31 +23,35 @@
     @$result2=$sum*$sum1;
     @$resultb=$sum/$sum1;
     
-  ?>
-     <h1  class="text-info ">ប្រមាណវិធីសម្រាប់ Operator in php8</h1>
+  ?> <h1  class="text-info ">ប្រមាណវិធីសម្រាប់ Operator in php8</h1>
+  <div class="container">
+     
      <div class="row">
-            <form action="07_ex03_value_arithmetic.php" class="bg-dark pt-4 col-md-6 text-info" method="post" >
-            <div class="mb-3">
-                <label for="number">InputNumber1:</label>
-                <input type="number" class="form-control" id="number" placeholder="Enter YourNumber1" name="num1">
-          </div>
-          <div class="mb-3 ">
-            <label for="number">InputNumber2:</label>
-            <input type="number" class="form-control" id="number" placeholder="Enter YourNumber2" name="num2">
-          </div>
-            <div class="pb-4">
-                <input class="btn btn-primary" type="submit" value="SUBMIT (+,-,*,/,%)">
-                <!-- <input type="submit" value="SUBMIT (-)" >
-                <input type="submit" value="SUBMIT (*)">
-                <input type="submit" value="SUBMIT (/)"> -->
+      <div class="col-md-6">
+                <form action="07_ex03_value_arithmetic.php" class="bg-dark pt-4 " method="post" >
+                <div class="mb-3">
+                    <label for="number">InputNumber1:</label>
+                    <input type="number" class="form-control" id="number" placeholder="Enter YourNumber1" name="num1">
               </div>
-            </form></div>
-      <div class="text-primary">
+              <div class="mb-3 ">
+                <label for="number">InputNumber2:</label>
+                <input type="number" class="form-control" id="number" placeholder="Enter YourNumber2" name="num2">
+              </div>
+                <div class="pb-4">
+                    <input class="btn btn-primary" type="submit" value="SUBMIT (+,-,*,/,%)">
+                    <!-- <input type="submit" value="SUBMIT (-)" >
+                    <input type="submit" value="SUBMIT (*)">
+                    <input type="submit" value="SUBMIT (/)"> -->
+                  </div>
+                </form></div>
+      <div class="text-info col-md-6 bg-primary">
            <h2>Result of num1+num2=<?php echo "$result";?></h2>
            <h2>Result of num1-num2=<?php echo "$result1";?></h2>
            <h2>Result of num1*num2=<?php echo "$result2";?></h2>
            <h2>Result of num1/num2=<?php echo "$resultb";?></h2>
           
       </div>
+    </div>
+    </div>
 </body>
 </html>
