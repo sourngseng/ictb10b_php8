@@ -7,14 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $x = "Hello";
-        $y = " World!";
-        echo $x . $y;
-        echo "<br>";
+<?php
+    $x = "Hello";
+    $y = " World!";
+    echo $x . $y;   echo "<br>";
 
-        $x .= $y;
-        echo $x;
-    ?>
+    $x .= $y;
+    echo $x;
+?>
 </body>
 </html>
