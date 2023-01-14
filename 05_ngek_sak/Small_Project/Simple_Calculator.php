@@ -1,0 +1,87 @@
+<?php 
+  $error = "";
+  $x = "";
+  $y = "";
+  $result = "";
+   if(isset($_GET['operation'])){
+      $x = $_GET['num1'];
+      $y = $_GET['num2'];
+      $op = $_GET['operation'];
+
+      if(is_numeric($x) && is_numeric($y)){  
+            switch($op){
+                case 'add' : $result = $x + $y;
+                break;
+                case 'minus' : $result = $x - $y;
+                break;
+                case 'multiply' : $result = $x * $y;
+                break;
+                case 'divide' : $result = $x / $y;
+                break;
+            }
+        }else{ 
+            echo '<script>alert("Please Input Numbers!!")</script>';
+   }
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Simple Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      h2{
+        text-align: center;
+        color: #006600;
+        font-weight: bold;
+        }
+        form{
+            justify-content: center;
+        } 
+        input{
+            display: inline-block;
+            text-align: center;
+            border: 2px blue solid;
+            border-radius: 8px;
+        }
+        .container{
+            border: 4px #ff3300 solid;
+            border-radius: 12px;
+            background-color: #ffb3ff;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container col-md-4 mt-5 card pb-3 ">
+  <h2><u>សូមបញ្ចូលលេខខាងក្រោម</u></h2>  
+  <form action="<?= $_SERVER['PHP_SELF']  ?>" method="get">
+        <div class="mb-3 mt-3">
+            <label for="num1"><h4>Num1</label>
+            <input type="number" name="num1" id="num1" value="<?= $x?>"></h4>
+        </div>
+        <div class="mb-3">
+            <label for="num2"><h4>Num2</label>
+            <input type="number" name="num2" id="num2" value="<?= $y?>"></h4>
+        </div>
+        <div style="text-align: center;" class="mb-3">
+            <input class="bg-success text-black" type="submit" value="add" name="operation">
+            <input class="bg-warning text-blue" type="submit" value="minus" name="operation">
+            <input class="bg-danger text-white" type="submit" value="multiply" name="operation">
+            <input class="bg-info text-green" type="submit" value="divide" name="operation">
+
+        </div>
+        <div class="mb-3 ">
+            <label class="d-flex justify-content-center" for="result"><h4>Result<br></h4></label>
+            <h4  class="d-flex justify-content-center"><input type="number" id="result" value="<?= $result?>" ></h4>
+        </div>
+        
+
+  </form>
+
+    
+</body>
+</html>
