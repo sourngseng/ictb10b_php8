@@ -10,7 +10,10 @@
 </head>
 <body>
      <?php
-    
+      $cpp=0;
+      $math=0;
+      $php8=0;
+      $total=0;
      if(isset($_POST['cpp'])){
         @$cpp=$_POST['cpp'];
      } if (isset($_POST['math'])){
@@ -18,6 +21,7 @@
      } if (isset($_POST['php'])){
         @$php8=$_POST['php'];
      } if (isset($_POST['total'])){
+
         @$total=$cpp+$math+$php8;
      } 
      @$avg=$total/3;
