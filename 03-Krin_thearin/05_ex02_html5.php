@@ -15,7 +15,9 @@
     <?php 
     echo"Hello,Nara";
     echo" <h1> Hello guys </h1>";
+    echo " Hello i am from cambodia";
     echo "<img src='images/img_avatar1.png'>";
+    
     
     
     ?>    
