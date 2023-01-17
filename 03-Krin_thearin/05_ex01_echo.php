@@ -10,16 +10,21 @@
     <?php 
      echo "Hello String in PHP8!<br>";
 
-     echo "Name : SENG Sourng<br>";
-     echo "Gender: Male <br>";
+     echo "Name : Krin thearin<br>";
+     echo "Gender: Female <br>";
+     echo"Age: 19 years old <br>";
      echo "Address: Siem Reap<br>";
-     echo "Phone : 092 77 12 44<br>";
+     echo "Phone : 0975251672<br>";
+     echo "Email: krinthearin123@gmail.com";
+    
  
      print("Hello String in PHP8!<br>");
-     print("Name : SENG Sourng<br>");
-     print("Gender: Male <br>");
+     print("Name : krin thearin<br>");
+     print("Gender: Female <br>");
+     print("Age: 19 years old <br>");
      print("Address: Siem Reap<br>");
-     print("Phone : 092 77 12 44<br>");
+     print("Phone : 0975251672<br>");
+     print("Email: krinthearin123@gmail.com");
  
     
     
