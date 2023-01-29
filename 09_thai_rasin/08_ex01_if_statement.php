@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using if statement</title>
+    <style>
+        body{
+            font-family:'courier New',"Haunman",monospace;
+        }
+        h4{
+            font-size: medium;
+        }
+
+        span{
+            color:red;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h4>ការប្រើប្រាស់<span>if</span>statement</h4>
+    <?php
+    echo date_default_timezone_get();
+    $checkHours=date('H');
+    $fullHour=date('H:i:s a');
+    echo "<h5>curr Hour is : $checkHours</h5>";
+    echo "<h5>current Hour is : $fullHour</h5>";
+    if($checkHours>8){
+        echo "<h5>ក្រោកពីគេង ហើយ</h5>";
+        echo "<h5>អរុសួស្តី តោះទៅផឹក</h5>";
+    }
+    echo "<hr>";
+    date_default_timezone_set('Asia/Phnom_Penh');
+    echo date_default_timezone_get();
+    $checkHours=date('H');
+    $fullHour=date('H:i:s a');
+    echo "<h5>curr Hour is : $checkHours</h5>";
+    echo "<h5>current Hour is : $fullHour</h5>";
+    if($checkHours>8){
+        echo "<h5>ក្រោកពីគេង ហើយ</h5>";
+        echo "<h5>អរុសួស្តី តោះទៅផឹក</h5>";
+    }
+    
+    
+
+
+
+    
+
+    
+
+
+
+
+    ?>
+</body>
+</html>

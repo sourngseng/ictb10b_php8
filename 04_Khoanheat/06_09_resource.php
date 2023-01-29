@@ -1,4 +1,4 @@
-
+<h2>Using Resource in PHP8</h2>
 <?php
     // Open a file for reading
     $handle = fopen("note.txt", "r");
