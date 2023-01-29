@@ -29,11 +29,11 @@ echo "<h3 style ='color:red;'>This is heading with style.</h3>";
 
     echo "Hello, Raimi!";
     echo "<h1>Hello heading1</h1>";
-    echo "<img src='images/img_avatar1.png'>";
+    echo "<img src='../images/img_avatar1.png'>";
 
     $name="Raimi";
     $gender="Male";
-    $avatar="images/img_avatar1.png";
+    $avatar="../images/img_avatar1.png";
 
    
     ?>
