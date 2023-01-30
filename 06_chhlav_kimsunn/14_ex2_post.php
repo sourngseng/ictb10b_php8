@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 
-    <title>Example of PHP GET method</title>
+    <title>Example of PHP POST method</title>
 </head>
 <body>
 <?php
-if(isset($_GET["name"])){
-    echo "<p>Hi, " . $_GET["name"] . "</p>";
+if(isset($_POST["name"])){
+    echo "<p>Hello, " . $_POST["name"] . "</p>";
 }
 ?>
 <form method="get" action="<?php echo $_SERVER["PHP_SELF"];?>">
