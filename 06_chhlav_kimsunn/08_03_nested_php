@@ -1,0 +1,18 @@
+<?php
+$a = 10; $b = 20; $c = 30;
+    if ($a > $b){
+        if($a > $c){
+            echo "max number is : $a";
+        }else{
+            echo "max number is : $c";
+        }
+    
+    }else{
+        if($b>$c){
+            echo "max number is : $b";
+        }else{
+            echo "max number is : $c";  
+        }
+    }
+}
+?>
