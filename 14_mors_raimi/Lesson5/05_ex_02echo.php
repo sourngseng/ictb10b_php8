@@ -13,7 +13,7 @@
 
     $name ="Raimi";
     $gender ="Male";
-    $avatar ="images/img_avatar6.png";
+    $avatar ="../images/img_avatar6.png";
  
     echo $name;
     echo "<p>Hello, $name !</p>";
