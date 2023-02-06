@@ -1,10 +1,37 @@
+<?php 
+  $error = "";
+  $x = "";
+  $y = "";
+  $result = "";
+   if(isset($_POST['operation'])){
+      $x = $_POST['num1'];
+      $y = $_POST['num2'];
+      $op = $_POST['operation'];
+
+      if(is_numeric($x) && is_numeric($y)){  
+            switch($op){
+                case '+' : $result = $x + $y;
+                break;
+                case 'minus' : $result = $x - $y;
+                break;
+                case 'multiply' : $result = $x * $y;
+                break;
+                case 'divide' : $result = $x / $y;
+                break;
+            }
+        }else{ 
+            echo '<script>alert("Please Input Numbers!!")</script>';
+   }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
    
     <title>Simple Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.24/sweetalert2.all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
       h2{
         text-align: center;
@@ -28,54 +55,17 @@
         }
     </style>
 </head>
-
-<?php   
-  $x = "";
-  $y = "";
-  $result = "";
-   if(isset($_POST['operation'])){
-      $x = $_POST['num1'];
-      $y = $_POST['num2'];
-      $op = $_POST['operation'];
-    }
-      if(empty($x) || empty($y)){   
-            ?>
-          <script>
-            Swal.fire({
-                icon: 'error',
-                title: 'Invalid',
-                text: 'សូមបញ្ចូលតម្លៃអោយ'
-            })
-        </script>
-        <?php
-   }else{
-    switch($op){
-        case 'add' : $result = $x + $y;
-        break;
-        case 'minus' : $result = $x - $y;
-        break;
-        case 'multiply' : $result = $x * $y;
-        break;
-        case 'divide' : $result = $x / $y;
-        break;
-    }
-   }
-
-
-?>
-
-
 <body>
-<div class="container col-md-4 mt-5 card pb-3 "> 
+<div class="container col-md-4 mt-5 card pb-3 ">
   <h2><u>សូមបញ្ចូលលេខខាងក្រោម</u></h2>  
   <form action="<?= $_SERVER['PHP_SELF']  ?>" method="POST">
         <div class="mb-3 mt-3">
             <label for="num1"><h4>Num1</label>
-            <input type="number" name="num1" id="num1"></h4>
+            <input type="number" name="num1" id="num1" value="<?= $x?>"></h4>
         </div>
         <div class="mb-3">
             <label for="num2"><h4>Num2</label>
-            <input type="number" name="num2" id="num2" ></h4>
+            <input type="number" name="num2" id="num2" value="<?= $y?>"></h4>
         </div>
         <div style="text-align: center;" class="mb-3">
             <input class="bg-success text-white" type="submit" value="add" name="operation">
