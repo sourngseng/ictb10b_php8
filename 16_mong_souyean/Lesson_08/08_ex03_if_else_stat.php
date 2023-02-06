@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Using if else if statement</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title> if else if statement</title>
     <style>
         body{
             font-family: 'Courier New', "Hanuman", monospace;
@@ -21,8 +22,9 @@
     </style>
 </head>
 <body>
-    <h4>ការប្រើប្រាស់​ <span>if elseif else </span>Statement</h4>
-    <h5>បញ្ចូលពត៌មានពិន្ទុសិស្ស</h5>
+<div class="container">
+    <center><h4>ការប្រើប្រាស់​ <span>if elseif else </span>Statement</h4>
+    <h5>បញ្ចូលពត៌មានពិន្ទុសិស្ស</h5></center>
     <hr>
     <?php 
     $cpp=$math=$php8=0;
@@ -56,6 +58,7 @@
     }
 
 ?>
+    <div class="container col-md-4 mt-5 card pb-3">
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <p>
             <label for="cpp">C++</label>
@@ -84,15 +87,13 @@
             <label for="totalscore">Total Score:</label>
             <input type="number" max="999" min="0" 
             name="totalscore" id="totalscore"
-            value="<?php echo @$totalScore; ?>"
+            value="<?php echo @$totalScore;?>" disabled 
             >
         </p>
         <h4>ពិន្ទុសរុប : <span><?php echo @$totalScore; ?></span></h4>
         <h4>មធ្យមភាគ : <span><?php echo @$avg; ?></span></h4>
-        <h4>និទ្ទេស : <span><?php echo @$grade; ?></span></h4>
+        <h4>និទ្ទេស : <span><?php echo @ $grade; ?></span></h4>
     </form>
+    
 </body>
 </html>
-
-
- 
